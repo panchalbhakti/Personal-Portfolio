@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101e47;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #0d1634;
+    padding: 1em 0;
+    border-radius: 0.9rem;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 70px;
+    padding: 0.07rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    font-family:  "Rajdhani", sans-serif;
+    font-weight: 600;
+}
+
+#name {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family:  "Rajdhani", sans-serif;
+    font-weight: 600;
+    margin: 0 70px;
+}
+
+.navbar a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+    padding: 2em;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    animation: slideIn 1.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1 {
+    margin: 20px 20px 10px 0px;
+}
+
+.info {
+    flex: 1;
+    text-align: left;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-shadow: 1px 1px 2px rgb(146, 137, 137), 0 0 5px blue, 0 0 10px rgb(159, 78, 167);
+    font-family:  "Rajdhani", sans-serif;
+    animation: slideInLeft 1.5s ease-in-out; /* Add slide-in-left animation */
+}
+
+.info p {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+#skills {
+    font-size: 33px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    animation: typing 4.5s steps(40, end), blink-caret 0.95s step-end infinite;
+}
+
+#about {
+    margin: 18px 0px;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+
+.gif-video {
+    flex: 1;
+    text-align: right;
+    /* padding: 2em; */
+}
+
+.gif-video img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    box-shadow: 10px 10px 20px rgba(0, 0.5, 0.5, 0.8);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+#resume {
+    padding: 3px;
+    color: white;
+    background-color: orange;
+    border: none;
+    align-self: center; /* Centers the button horizontally */
+    margin-top: 5px;   /* Adds space between the text and the button */
+    padding: 8px 12px;
+    font-size: 15px;
+    border-radius: 5px;
+}
