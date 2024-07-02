@@ -88,7 +88,7 @@ h1 {
     margin-top: 2rem;
     text-shadow: 1px 1px 2px rgb(146, 137, 137), 0 0 5px blue, 0 0 10px rgb(159, 78, 167);
     font-family:  "Rajdhani", sans-serif;
-    animation: slideInLeft 1.5s ease-in-out; /* Add slide-in-left animation */
+    animation: slideInLeft 1.5s ease-in-out; 
 }
 
 .info p {
