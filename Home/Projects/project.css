@@ -64,14 +64,26 @@ nav {
 }
   
 .project-pic {
-    width: 65%;
-    height: 60%;
+    width: 90%;
+    height: 55%;
 }
   
 .projects-container {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
+}
+
+.project-sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-sec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .projects-title {
@@ -125,15 +137,23 @@ nav {
 }
 
 .project-container p {
-    padding: 0.4rem;
+    padding: 0.1rem;
   }
   
   .project-title {
-    margin-bottom: var(--bottom-margin);
+    /* margin-bottom: var(--bottom-margin); */
+    margin-bottom: 1px;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
   
   .project-details {
     margin-bottom: var(--bottom-margin);
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family:  "Rajdhani", sans-serif;
+    font-weight: 500;
+
   }
   
   .project-card {
@@ -141,6 +161,21 @@ nav {
     border-radius: 11px;
     padding: 20px;
     margin: 10px;
-    box-shadow: 0 4px 5px rgb(69, 68, 68);
+    box-shadow: 0 4px 8px rgb(18, 18, 18);
+    max-height: fit-content;
   }
+
+  .project-card img {
+    border-radius: 0.5rem;
+  }
+
+  .project-link {
+    margin-right: 170px;
+    color: rgb(22, 44, 59);
+  }
+
+  .code-link {
+    color: rgb(22, 44, 59);
+}
+  
   

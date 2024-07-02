@@ -168,9 +168,9 @@ h1 {
     color: white;
     background-color: orange;
     border: none;
-    align-self: center; /* Centers the button horizontally */
-    margin-top: 5px;   /* Adds space between the text and the button */
-    padding: 8px 12px;
+    align-self: center; 
+    margin: 5px;   
+    padding: 12px;
     font-size: 15px;
     border-radius: 5px;
 }
