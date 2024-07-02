@@ -78,7 +78,7 @@ nav {
 }
 
 .icons {
-    margin: 5rem 0rem 6rem 5rem;
+    margin: 7rem 0rem 6rem 5rem;
     animation: fadeIn 1.5s ease-in-out;
     animation: slideIn 1.5s ease-in-out;
 }
@@ -102,7 +102,7 @@ h2 {
 }
 
 .skills-section {
-    margin: 20px 0px 20px 70px;
+    margin: 5px 0px 20px 70px;
     width: 35rem;
     display: block;
     animation: slideInLeft 2s ease-in-out;
