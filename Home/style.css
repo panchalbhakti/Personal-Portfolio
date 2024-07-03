@@ -137,32 +137,6 @@ h1 {
     box-shadow: 10px 10px 20px rgba(0, 0.5, 0.5, 0.8);
 }
 
-/* @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes slideIn {
-    from { transform: translateY(50px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes slideInLeft {
-    from { transform: translateX(-50px); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes slideInRight {
-    from { transform: translateX(50px); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-} */
-
 #resume {
     padding: 3px;
     color: white;
@@ -189,6 +163,8 @@ h1 {
     background-color: #18264c;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
     box-shadow: 0 2px 4px rgba(25, 24, 24, 0.9);
+    animation: fadeIn 1.5s ease-in-out;
+    animation: slideIn 1.5s ease-in-out;
 }
 
 .skills-heading {

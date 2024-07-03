@@ -138,43 +138,42 @@ nav {
 
 .project-container p {
     padding: 0.1rem;
-  }
+}
   
-  .project-title {
-    /* margin-bottom: var(--bottom-margin); */
+.project-title {
     margin-bottom: 1px;
     font-size: 1.2rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
+}
   
-  .project-details {
+.project-details {
     margin-bottom: var(--bottom-margin);
     margin-bottom: 1rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     font-family:  "Rajdhani", sans-serif;
     font-weight: 500;
 
-  }
+}
   
-  .project-card {
+.project-card {
     background-color: #5a6d82;
     border-radius: 11px;
     padding: 20px;
     margin: 10px;
     box-shadow: 0 4px 8px rgb(18, 18, 18);
     max-height: fit-content;
-  }
+}
 
-  .project-card img {
+.project-card img {
     border-radius: 0.5rem;
-  }
+}
 
-  .project-link {
+.project-link {
     margin-right: 170px;
     color: rgb(22, 44, 59);
-  }
+}
 
-  .code-link {
+.code-link {
     color: rgb(22, 44, 59);
 }
   
