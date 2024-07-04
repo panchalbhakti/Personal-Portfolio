@@ -58,13 +58,41 @@ nav {
     text-decoration: underline;
 }
 
+@media (max-width: 1400px) {
+
+    nav {
+        padding: 0.5rem;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .navbar li {
+        /* margin: 10px 0; */
+        margin: 0 3rem;
+        padding: 0.04rem;
+    }
+
+    .navbar a {
+        font-size: 15px;
+    }
+
+    #name {
+        margin: 20px 0;
+    }
+}
+
 .header {
     color: white;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem 100px;
+    margin: 2rem 60px;
     border: 1px solid  black;
     border: none;
     border-radius: 1.5rem;
@@ -130,15 +158,10 @@ h2 {
     margin: 5px 40px;
     width: 30rem;
     border-radius: 5px;
-    body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
-    margin: 0;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    box-shadow: 0 2px 4px rgba(136, 135, 135, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1.1rem;
 }
 
 .contact {
@@ -196,11 +219,6 @@ h2 {
     }
 }
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -226,4 +244,119 @@ h2 {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
+
+@media (max-width: 826px) {  
+    .navbar li {
+        margin: 0 10px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .info {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .gif-video img {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    #resume {
+        margin: 1rem auto;
+        width: fit-content;
+    }
+
+    .skills-section {
+        width: auto;
+        margin: 20px;
+    }
+
+    .skills-section ul li {
+        width: auto;
+        margin: 5px 0;
+    }
+
+    .info {
+        margin-top: 3rem;
+    }
+
+    #resume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        margin-top: 2rem 3.25rem 2rem 3.25rem;
+    }
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .skills-heading{
+        margin: 3px 0px;
+    }
+
+    .icons img {
+        width: 45px;
+        height: 45px;
+        margin: 18px;
+    }
+
+    .icons {
+        margin: 30px;
+    }
+
+    .hero {
+        padding: 1em;
+    }
+
+    .skills-section h3{
+        font-size: 20px;
+        margin: 2px 35px;
+    }
+
+    .skills-section ul{
+        font-size: 5px;
+        width: 450px;
+    }
+}
+
+@media (max-width: 1400px) {
+
+    .info {
+        font-size: 1.5rem;
+    }
+
+    #skills {
+        font-size: 20px;
+    }
+
+    #about {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1100px){
+
+    .hero-section {
+        display: block;
+    }
+    
+    .icons {
+        margin: 2rem;
+    }
+
+    .navbar li {
+        margin: 0 15px;
+    }
+
+} 
+
 
