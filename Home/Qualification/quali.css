@@ -3,7 +3,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #101e47;
+    /* background-color: #101e47; */
+    background-image: linear-gradient(to right, rgb(60, 54, 111), rgb(15, 15, 77));
 }
 
 * {
@@ -77,3 +78,55 @@ h3 {
     margin: 15px;
 }
 
+.edu-heading {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(170, 160, 160, 0.9);
+    font-size: 1.5rem;
+    font-family:  "Rajdhani", sans-serif;
+    margin-left: 2em;
+    animation: fadeIn 1.5s ease-in-out;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.lists li{
+    color: white;
+    font-family:  "Rajdhani", sans-serif;
+    margin: 1em 2em;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    border: none;
+    background-color: #18264c;
+    padding: 0.5em;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(25, 24, 24, 0.9);
+    animation: fadeIn 1.5s ease-in-out;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
